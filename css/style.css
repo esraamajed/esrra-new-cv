@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+
+}
+#nav{
+    background-color:white;
+    border-bottom: 1px solid black ;
+   
+}
+
+
+#hero .content ul  {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+#hero .content ul li {
+    padding: 0px 0px;
+
+}
+
+
+#hero{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#hero .content ul  {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+#hero .content ul li i {
+    color: rgb(19, 18, 18);
+    padding: 12px ;
+}
+
+
+
+
+
+#intro{
+    background-color: white;
+
+}
+
+
+#intro .container > div {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+
+#intro .container .l-div {
+    text-align: center;
+    color: rgb(55, 52, 52);
+    padding: 20px;
+}
+
+#intro .container .r-div .skills {
+    margin-top: 40px;
+}
+#intro .container .r-div .skill {
+    margin-bottom: 30px;
+}
+
+#intro .container .r-div .skill .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro .container .r-div .skill .progress{
+    background-color: rgb(86, 89, 87);
+    width: 100%;
+    height: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#intro .container .r-div .skill .progress > div {
+    height: 100%;
+    background-color: rgb(33, 161, 221);
+    border-radius: 10px;
+
+}
+#intro .container .r-div .skill .progress > div.Html {
+    width: 90%; 
+}
+#intro .container .r-div .skill .progress > div.CSS{
+    width: 80%;
+}
+#intro .container .r-div .skill .progress > div.JS{
+    width: 90%;
+}
+#intro .container .r-div .skill .progress > div.Bootstrap{
+    width: 87%;
+}
+
+
+#experiance {
+    background-color: rgb(223, 216, 216);
+}
+
+
+#experiance .container > div {
+    padding: 0 20px 0 0;    
+}
+
+#experiance .container .cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+
+   
+
+}
+#experiance .container .card {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#experiance .container .l-div {
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+}
+
+#works {
+    background-color: rgb(250, 243, 243);
+  
+   
+}
+
+#works .container .l-div { 
+    text-align: center;
+    padding:  30px;
+}
+
+
+#works .container .l-div h4 {
+    color: rgba(50, 50, 50, 0.367);
+    font-size: 30px;
+
+} 
+
+
+
+#works .container .r-div { 
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-auto-rows: 250px;
+    gap: 10px;
+    padding: 31px;
+}
+
+ .first-img{
+    width: 100%;
+    height: 100%;
+ }
+
+#works .container .r-div  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+#contact {
+    background-color: rgb(217, 213, 213);
+  padding-top: 20px;
+}
+
+
+#contact .container .l-div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#contact .container .l-div h4 {
+    color: rgba(50, 50, 50, 0.367);
+    font-size: 30px;
+   
+}
+
+#contact .container .r-div{
+    text-align: center;
+}
+
+
+#contact .container .r-div .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .container .r-div .cards .card {
+    width: calc(100%/2);
+    background-color: rgb(217, 213, 213);
+            border: none;
+
+    }
+
+    footer {
+        background-color: rgb(253, 250, 250);
+        padding: 20px;
+        text-align: center;
+        
+    }
+    footer span {
+        color:blue;
+    }
+    
+    
+  

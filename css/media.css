@@ -1,0 +1,157 @@
+
+    
+@media(min-width: 720px){
+   
+    #nav{
+        padding: 0 200px;
+    }
+    .container{
+        width: 600px;
+    }
+    i.fa-solid.fa-bars {
+        display: none;
+    }
+    
+    #hero{
+        width: 100%;
+        height: calc(100vh);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        background-image: url(../img/bg.jpg);
+    }
+    
+    .opacity {
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #hero .container{
+        color: rgb(14, 13, 13);
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    #hero .content h1 {
+        width: 100px;
+        font-size: 40px;
+        display: flex;
+    }
+    
+    #hero .content p {
+        font-size: 28px;
+        border-bottom: 1px solid white;
+        margin: 30px 0;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    #hero .content ul  {
+        display: flex;
+        list-style: none;
+        font-size: 20px;
+        padding: 0px;
+    }
+    #hero .content ul li {
+        padding: 0px 0px;
+        border: none;
+    
+    }
+    
+    
+
+
+    
+
+
+    .l-div {
+        width: 20%;
+        text-align: right;
+    }
+
+    .r-div {
+        width: 80%;
+    }
+
+    #intro .container,
+    #experiance .container,
+    #works .container,
+    #contact .container  {
+        display: flex;
+    }
+   #experiance .container .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    
+       
+    
+    }
+
+    /* #experiance .container .card {
+        width: calc(100/3);
+        padding: 20px;
+        background-color: white;
+    } */
+
+    #works .container .r-div {
+        grid-template-columns: repeat(3 , 1fr);
+    }
+
+    #works .container .r-div .first-img  {
+        grid-column: span 2;
+    }
+
+    #contact .container .r-div .cards .card {
+        width: calc(100%/4);
+    }
+
+    footer .container {
+        display: flex ;
+        justify-content: space-between;
+    }
+
+}
+
+@media(min-width:900px){
+    .container {
+        width: 820px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #experiance .container .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    
+       
+    
+    }
+}
+
+@media(min-width:1400px){
+
+    .container {
+        width: 1000px;
+    }
+    #experiance .container .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    
+       
+    
+    }
+}
+
+
+
